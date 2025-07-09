@@ -24,7 +24,7 @@ with app.app_context():
 
 
 @app.route("/")
-def hello_world():
+def home():
     return render_template('home.html', subtitle='Home Page', text='This is the home page')
     
 @app.route("/second_page")
